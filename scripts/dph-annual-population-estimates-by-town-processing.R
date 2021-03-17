@@ -100,7 +100,7 @@ total_pop_fips <- total_pop_fips %>%
 # Write collated data to file.
 write.table(
   total_pop_fips,
-  file.path(getwd(), "data", "dph-population-by-town_2016.csv"),
+  file.path(getwd(), "data", "dph-population-by-town_2019.csv"),
   sep = ",",
   row.names = F
 )
